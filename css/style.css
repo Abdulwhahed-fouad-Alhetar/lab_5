@@ -1,0 +1,52 @@
+/* فعلت 2 اسماء نفس الاسم واحد كلاس وواحد اي دي واستدعيت كل واحد */
+.lab5{
+    color: rgb(168, 0, 0);
+}
+/* حددت نوع كل جهه م البروردر   */
+/* النص يكون بالوسط */
+#lab5{
+    color: #000;
+    text-align: center;
+    border-top-style: dotted;
+ border-right-style: solid;
+ border-bottom-style: dotted;
+ border-left-style: solid;
+}
+/* حددت كل لون للبوردر */
+/* حددت كل مقاس لاطراف البوردر */
+/* margin الهوامش اللي بداخل الصفحة */
+body{
+    border-style: solid;
+ border-width: 2px 1px 4px 2px;
+ border-color: red green blue yellow;
+ border: 1px solid red;
+ margin-left: inherit;
+ padding-top: 10px;
+ margin-top:  10px;
+ outline-style: dotted;
+ color: rgb(0, 0, 0);
+ background-color:chocolate;
+}
+
+
+.lab5 {
+    border-top-style: dotted;
+    border-right-style: solid;
+    border-bottom-style: dotted;
+    border-left-style: solid;
+    text-align: center;
+    margin-top:30px;
+    /* margin-right
+     margin-bottom
+    margin-left */
+    
+   }
+.margin{
+    padding: 50px 30px 50px 80px;
+    border-style:double;
+    border-color: aqua;
+}
+.bord{
+    border-style: unset;
+
+}
